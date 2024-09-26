@@ -7,7 +7,7 @@ resource "aws_vpc" "terraform_vpc"
     Name = var.vpc_tag_name
   } 
   lifecycle {
-    create_before_destroy = true
+    create_before_destroy = false
   }
 }
-
+ygshsahisajasj
